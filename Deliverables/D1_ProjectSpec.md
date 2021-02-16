@@ -17,3 +17,4 @@ The main concept is to build more onto a basic wheel app that allows you to inpu
 - Software must be able to implement a reroll function.
 - Software might be able to separate restaurants based off type of food.
 - Software must be able to display directions to the chosen restaurant.
+- Software must be able to sort restaurants based off of food types (Asian, Mexican, Italian, etc.)
