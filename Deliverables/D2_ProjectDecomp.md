@@ -12,12 +12,14 @@
 - Get directions for chosen restaurant.
 
 **Understanding the components**
-- By writing out my components in a list in order based on what I want the app to do seems a lot easier than I first assumed and was worried about. When I see this list I realize that the previous step is required for the next step. Now I have a timeline and backbone of what I need to get done.
+- By writing out my components in a list in order based on what I want the app to do seems a lot easier than I first assumed and was worried about. When I see this list I realize that the previous step is required for the next step. Now I have a timeline and backbone of what I need to get done I think I will be able to implement these features easier.
 
 **Breaking up components**
 - My components are pretty much broken up into the bits and pieces that I need to work on. However I could break up the filtering process into different steps but I think the Google Places API will already display the distance, price range, etc.
 
 **Prioritize**
+- Think of app names
 - Learn Google Places API (https://www.youtube.com/watch?v=5oG2Q2GMOBE&ab_channel=GoogleDevelopers)
-- Everything else is in the order needed
-- Putting everything together into an app and/or website
+- Design a logo (Needed for Google Places)
+- Everything else is in the order needed from the components
+- Putting everything together into an app and/or website.
