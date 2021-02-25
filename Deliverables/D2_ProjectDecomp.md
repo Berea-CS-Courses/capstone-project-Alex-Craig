@@ -23,3 +23,5 @@
 - Design a logo (Needed for Google Places)
 - Everything else is in the order needed from the components
 - Putting everything together into an app and/or website.
+- https://ibb.co/C2sQDRh
+- https://ibb.co/f96ZfVV
