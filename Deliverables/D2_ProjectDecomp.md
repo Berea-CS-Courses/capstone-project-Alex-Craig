@@ -23,5 +23,10 @@
 - Design a logo (Needed for Google Places)
 - Everything else is in the order needed from the components
 - Putting everything together into an app and/or website.
-- https://ibb.co/C2sQDRh (Paper Prototype)
+- https://ibb.co/C2sQDRh (Paper Drawing)
 - https://ibb.co/f96ZfVV (logo)
+
+**Notes**
+- I actually figured out how to create this app with coding from Apple's IOS Shortcuts. The only problem with this is that if I do this my app will be limited to IOS devices only.
+- Also as of Thursday (3/4/21) I was able to learn enough html code to create a map that displays a given location (from the code) and marks restaurants in a 5 mi radius (set in code). When the marker is left clicked it displays the restaurant name, if a new location on the map is right clicked it clears the previous markers and displays the new markers.
+- However for the time being there is a small problem with the filter as Google separates fast food from non fast food resaurants and won't display everything.
