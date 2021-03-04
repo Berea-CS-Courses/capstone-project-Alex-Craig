@@ -18,7 +18,7 @@
 - My components are pretty much broken up into the bits and pieces that I need to work on. However I could break up the filtering process into different steps but I think the Google Places API will already display the distance, price range, etc.
 
 **Prioritize**
-- Think of app names (Food Finder vs Restaurant Randomizer)
+- Think of app names (Restaurant Roulette - Ezra S.)
 - Learn Google Places API (https://www.youtube.com/watch?v=5oG2Q2GMOBE&ab_channel=GoogleDevelopers)
 - Design a logo (Needed for Google Places)
 - Everything else is in the order needed from the components
