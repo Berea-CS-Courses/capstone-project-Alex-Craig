@@ -30,3 +30,14 @@
 - I actually figured out how to create this app with coding from Apple's IOS Shortcuts. The only problem with this is that if I do this my app will be limited to IOS devices only.
 - Also as of Thursday (3/4/21) I was able to learn enough html code to create a map that displays a given location (from the code) and marks restaurants in a 5 mi radius (set in code). When the marker is left clicked it displays the restaurant name, if a new location on the map is right clicked it clears the previous markers and displays the new markers.
 - However for the time being there is a small problem with the filter as Google separates fast food from non fast food resaurants and won't display everything.
+
+**Updates**
+- Now that I have changed what I want my app to do I can go more in depth on what I want to accomplish.
+- To begin I need to create an editable text box that allows the user to type in their location.
+- Then I have a line of text asking how many people are in the car and a 4 cicle choice option.
+- After that I have an adjustable text option that let's the user know how many options each person gets. (12 choices/people).
+- Then using Google, Yelp, or Zomato APIs, I can display the restaurants around. (They all do the same thing but I havent done enough research to see what might be easier to implement)
+- After that I need to create a 12 color wheel that spins using HTML, CSS/Javascript. (https://www.youtube.com/watch?v=Gcz5RM-imJ8&ab_channel=LearnDesign)
+- Then using the previous API I will display the winner of the color wheel with a picture of the restaurant, a text box with the restaurants name and address.
+- I will also have 3 buttons; "Get directions" to open the user's phone map, "visit website" to open the user's browser, and "Spin Again" to spin the wheel again.
+- Understanding these new components I will need to learn more HTML, and Javascript as I don't have much knowledge in these (I have a bunch of youtube videos and websites bookmarked for this). I need to research more into the APIs of Google, Yelp and Zomato to make my decision. I also have touched basis on App Inventor to see if I can create the app there. Mario and I have discussed this and we think it might be possible.
