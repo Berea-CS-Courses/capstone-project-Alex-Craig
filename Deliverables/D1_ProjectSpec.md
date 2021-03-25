@@ -18,3 +18,6 @@ The main concept is to build more onto a basic wheel app that allows you to inpu
 - Software might be able to separate restaurants based off type of food.
 - Software must be able to display directions to the chosen restaurant.
 - Software must be able to sort restaurants based off of food types (Asian, Mexican, Italian, etc.)
+
+**Updates**
+- I want my app to be useable on IOS and Android devices and I have changed how the app will work. The app will now take in the user's location by asking them to type it in and will have the auto fill option to make it easier. Then the app will ask the user how many people are in the car (1-4) to divide the number of choices they get evenly (12 choices divided by number of people). Using the address given and an API (Google Places, Yelp or Zomato) will display a list of restaurants for the users to add to the roulette wheel based on the number of choices they have (choices can overlap). Once all 12 choices are added the app will ask the user to spin the wheel. After that it will display the winner's name, location, directions, website, and a roll again feature. I have dropped the urgency, costs, ratings/hours, and search option of a previous idea as the restaurants website should have most of this information and that will be implemented instead.
