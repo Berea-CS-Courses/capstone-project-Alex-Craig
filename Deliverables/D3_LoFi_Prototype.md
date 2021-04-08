@@ -32,3 +32,18 @@
 - It informed more about what I want to do with my project and how it's changing because originally I wanted to app to be a multi-user based app but based off my limit of knowledge, I decided to make it single user (driver) take in the passengers verbal requests and add them to the random list.
 - If I miss something in my user flow chart what's the best way to add it if the way it is represented in the code is something the happens behind the scenes?
 - I feel confident enough to where I have actually started a little bit and used it for this Deliverable. 
+
+**Updates**
+Since I am creating the app from a different application that's not the Shortcuts App, I went and created a new flowchart and paper sketch of what I want my app to embody.
+**Main Menu**
+![mainmenu](https://user-images.githubusercontent.com/46610322/114023890-6a617480-9841-11eb-8e3f-59db33cdec59.jpg)
+
+**Wheel Spinner**
+![wheelspinner](https://user-images.githubusercontent.com/46610322/114023930-751c0980-9841-11eb-89c4-0b37e85e63d2.jpg)
+
+
+**Displayed Winner**
+![displayinfo](https://user-images.githubusercontent.com/46610322/114023967-7cdbae00-9841-11eb-8426-ae94702b7711.jpg)
+
+**Updated flowchart**
+![Updatedflowchart](https://user-images.githubusercontent.com/46610322/114024015-89f89d00-9841-11eb-8e76-0d9f15075802.png)
