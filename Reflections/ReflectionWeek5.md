@@ -14,3 +14,6 @@
 https://www.youtube.com/watch?v=MfMGA6S5YvE&ab_channel=Thunkable (Tutorial for a QR Scanner)
 Notes taken from Bryan during class and getting the color wheel selection to truly work.
 
+**Filter Code + Screen + Yelp Documentation stuff that I needed help on**
+
+![help](https://user-images.githubusercontent.com/46610322/117503934-b0e4e480-af4f-11eb-98f1-fb798fda9c5b.png)
