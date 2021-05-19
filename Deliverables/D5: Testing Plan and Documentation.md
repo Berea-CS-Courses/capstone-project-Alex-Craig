@@ -16,6 +16,80 @@
 - To reflect on what I learned. I figured out that most people were able to get the random restaurant from start to finish pretty easily. The main problem lied within the design of the app as the color changes where not important and could throw people off. I actually deicded to remove that feature and settled for a nice rainbow background. Another problem that I had with my first test is that there was no home button for each screen so the user would have to basically start all the way over if they messed up. So I added a home button before my second test. I also added a QR Code Scanner button to the home screen to allow the user to jump straight to the scanner if they already got a restaurant and closed out of the app to prevent them from having to start everything over. At this time I haven't been able to get the food types function to work but I feel as if I am getting closer because I can get it to output the food type but for some reason I cannot get it to take in. I thought it worked because my last test typed in chinese and got the output of a chinese restaurant however it was purely luck that it happened.
 
 3. b) End-to-End Testing
-- Test Steps:
+- Horizontal Test Steps:
+- Navigate to the filters screen
+ 
+i. The app uses the button press to change to the filters screen
+- Navigate to the QR Code Screen
+ 
+i. The app uses the button press to skip the restaurant selection and go to the QR Screen
+
+- Navigate to Home
+ 
+i. The code takes us back to the home screen from the filters
+- Only show restaurants open now
+ 
+i. The Yelp API takes in the value of open or closed
+- Set a distance range
+ 
+i. The Yelp API takes in the distance (m) and the code converts it to miles.
+- Set a price range
+ 
+i. The Yelp API takes in the price selection and filters restaurants only of the price
+- Take in food types
+ 
+i. The Yelp API uses the alias and categories to filter out restaurants that don’t fit.
+- Navigate to Wheel screen
+ 
+i. The code moves on to the color wheel.
+- Navigate to Home 
+ 
+i. The code moves back home from the wheel screen.
+- Spin the wheel
+ 
+i. The code sets the image to a random degree then spins for 4.5 seconds and plays a sound.
+- Output the Result
+
+i. The code gathers Yelp API info and displays it in the right color of the wheel.
+- Swap Buttons
+ 
+i. The code swaps the spin button for the next button
+- Navigate to Results Screen
+ 
+i. The code moves to the results screen with the next button press
+- Navigate to Home
+ 
+i. The code moves back home with a button press from the results screen
+- Display Restaurant Information
+ 
+i. The code takes information from the yelp API and displays it.
+- Open Yelp Website
+ 
+i. The code uses the yelp API for a URL for the restaurant
+- Navigate to Wheel screen (Reroll)
+ 
+i. The code moves back to the wheel screen
+- Open Google Maps with directions
+ 
+i. The code takes in the user's location and the restaurant's location from the yelp API and gives directions.
+- Navigate to QR Code Screen
+ 
+i. The code moves the app on to the qr code screen with the button press.
+- Navigate to Home
+ 
+i. The code goes back home from the qr code screen
+- Scan QR Code / Take picture
+ 
+i. The code opens up the phone’s camera for a picture.
+- Read QR Code
+ 
+i. The QR  Code API stores the image url and uploads it to its database to read.
+- Display Website
+ 
+i. The QR API changes the website text to a link
+- Make website clickable
+ 
+i. The code makes the QR Code link clickable and opens it up.
+
 - I actually wanted this test to reflect how I would truly use my application. So what I did was got dressed and hopped in my car. While I was waiting in my driveway I opened up the app and wanted to look for a restaurant near me. I wanted something close and not cheap but not too expensive, so my settings where 7 miles and $$ (11-30$). Then I wanted to test each of the different features to make sure they worked. So I made sure the color wheel displays the color and the restaurant and then hides the buttonfor spin and moves onto the next screen. Then I tried to make sure the "More Info", "Get Directions", "Reroll", and the "QR Code Scanner" works. I also went through each screen to make sure the home button worked throughout the project. Finally I wanted to see if my QR Code Scanner button works  from the main menu.
 - The best way that I can summarize this is that I am able to get 95% of my code to work, I am still having trouble getting my food search filter to work in the testing. I put it as a text variable for later in the code to output to work and it can display the type of restaurant is selected but it will only display one choice. Like for IHOP it actually listed it as "ComfortFood" rather than "breakfast". I wasn't sure on why it wasn't displaying a bunch of results and it left me confused.
